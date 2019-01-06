@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL='http://localhost:3001';
+axios.defaults.baseURL='https://localhost:3001';
 //增加默认的请求的路径
 axios.interceptors.response.use((res)=>{
   return res.data;
